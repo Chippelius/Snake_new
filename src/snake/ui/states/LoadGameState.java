@@ -29,7 +29,8 @@ public class LoadGameState extends State implements Clockable {
 		backgroundImage = new Sprite(Resources.getImage(Files.internal.background, true));
 		backgroundImage.setBounds(0, 0, parent.getConfig().width, parent.getConfig().height);
 		transparentSnakeLogo = new Sprite(Resources.getImage(Files.internal.logo, true));
-		transparentSnakeLogo.setBounds(parent.getConfig().width/2, parent.getConfig().height/2, 300, 300);
+		transparentSnakeLogo.setBounds(parent.getConfig().width/2, parent.getConfig().height/2, 
+				parent.getConfig().width/3, parent.getConfig().width/3);
 		transparentSnakeLogo.centerOrigin();
 		rotClock = new Clock(this, 1.0f/120.0f);
 	}

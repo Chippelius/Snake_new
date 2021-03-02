@@ -16,8 +16,6 @@ import java.awt.image.BufferedImage;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 
-import snake.oldUI.MouseListener;
-import utils.Maths;
 import utils.io.ImageLoader;
 import utils.io.IniAdapter;
 import utils.io.LangAdapter;

@@ -69,11 +69,11 @@ public class Game {
 		gamePausedMenu.prepare();
 		
 		//Simulate loading time
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e1) {
-			e1.printStackTrace();
-		}
+//		try {
+//			Thread.sleep(2000);
+//		} catch (InterruptedException e1) {
+//			e1.printStackTrace();
+//		}
 		
 		display.setCurrentState(mainMenu);
 		Logger.gdL().logInfo("Game successfully started");
